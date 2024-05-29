@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <section>
+
+        <form name="Formulario" method="get">
+            <p><label for="nombre">Nombre y Apellido:<input type="text" name="nombre" id="nombre"
+                        maxlength="15"></label>
+            </p>
+            <p><label for="dir">Dirección: <input type="text" name="direccion" id="dir"></label>
+               <label for="nro">Nro</label><input type="number" id="nro" name="nrodir" min="1" max="999" maxlength="3"></p><br>
+            <p>Ciudad de residencia:</p>
+                <input type="radio" id="pna" name="ciudad" value="Paraná">
+                    <label for="pna">Paraná</label><br>
+                <input type="radio" id="sanbe" name="ciudad" value="San Benito">
+                    <label for="sanbe">San Benito</label><br>
+                <input type="radio" id="colonia" name="ciudad" value="Colonia Avellaneda">
+                    <label for="colonia">Colonia Avellaneda</label><br>
+                <input type="radio" id="orov" name="ciudad" value="Oro Verde">
+                    <label for="orov">Oro Verde</label><br>
+            
+            <p>Sistema operativo de preferencia</p>
+            
+            <ul title="SisOp">
+                <li>
+                    Windows 8
+                </li>
+                <li>
+                    Windows 10
+                </li>
+                <li>
+                    Linux
+                </li>
+            </ul>
+            <p>
+                <input type="submit" value="Enviar">
+            </p>
+        </form>
+
+    </section>
+</body>
+
+</html>
